@@ -20,11 +20,14 @@ namespace INSADesignPattern
             Console.WriteLine("/__/ /__/ |___/ /_______/ /__/    |_|");
             Console.WriteLine("Desing Patterns - Anthony Maudry amaudry@gmail.com");
             Console.WriteLine("Hello,");
-            Console.WriteLine("Write something (type 'exit' to exit the program.");
+            Console.WriteLine("Write something (type 'exit' to exit the program).");
             while ((line = Console.ReadLine()) != "exit")
             {
+                Console.WriteLine("You wrote : ");
                 Console.WriteLine(line);
             }
+
+            Console.WriteLine("Goodbye.");
         }
     }
 }
