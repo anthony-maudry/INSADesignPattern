@@ -42,8 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InputStrategies\FirstHelloStrategy.cs" />
+    <Compile Include="InputStrategies\LastHelloStrategy.cs" />
+    <Compile Include="InputStrategies\SecondHelloStrategy.cs" />
+    <Compile Include="Observables\HelloObservable.cs" />
+    <Compile Include="Observables\SmileyObservable.cs" />
+    <Compile Include="Observer\Observer.cs" />
+    <Compile Include="Observer\IObservable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategy\IInputStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
